@@ -1,0 +1,2 @@
+# seqExplora
+modulos tarjetas kicad
