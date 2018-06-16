@@ -305,7 +305,7 @@ U 1 1 5B21ABA4
 P 1250 1100
 F 0 "C1" H 1275 1200 50  0000 L CNN
 F 1 "CP" H 1275 1000 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 1288 950 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P5.00mm" H 1288 950 50  0001 C CNN
 F 3 "" H 1250 1100 50  0001 C CNN
 	1    1250 1100
 	1    0    0    -1  
@@ -316,7 +316,7 @@ U 1 1 5B21AC5B
 P 2150 1100
 F 0 "C2" H 2175 1200 50  0000 L CNN
 F 1 "CP" H 2175 1000 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 2188 950 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P5.00mm" H 2188 950 50  0001 C CNN
 F 3 "" H 2150 1100 50  0001 C CNN
 	1    2150 1100
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 5B21ACD4
 P 2650 3450
 F 0 "C3" H 2675 3550 50  0000 L CNN
 F 1 "CP" H 2675 3350 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 2688 3300 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P5.00mm" H 2688 3300 50  0001 C CNN
 F 3 "" H 2650 3450 50  0001 C CNN
 	1    2650 3450
 	1    0    0    -1  
@@ -338,7 +338,7 @@ U 1 1 5B21AD66
 P 3350 1150
 F 0 "C4" H 3375 1250 50  0000 L CNN
 F 1 "CP" H 3375 1050 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 3388 1000 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P5.00mm" H 3388 1000 50  0001 C CNN
 F 3 "" H 3350 1150 50  0001 C CNN
 	1    3350 1150
 	1    0    0    -1  
@@ -452,7 +452,7 @@ Text Label 8450 1400 3    60   ~ 0
 pot_1
 Text Label 8550 1400 3    60   ~ 0
 pot_2
-Text Label 8650 1400 3    60   ~ 0
+Text Label 8650 1800 3    60   ~ 0
 data_leds
 Text Label 7850 1400 3    60   ~ 0
 grnd
@@ -473,7 +473,7 @@ Wire Wire Line
 Wire Wire Line
 	8550 1300 8550 1400
 Wire Wire Line
-	8650 1300 8650 1400
+	8650 1300 8650 1500
 Wire Wire Line
 	8850 1300 8850 1400
 Text Label 6100 2500 3    60   ~ 0
@@ -645,7 +645,7 @@ U 1 1 5B22358D
 P 4250 1150
 F 0 "C5" H 4275 1250 50  0000 L CNN
 F 1 "CP" H 4275 1050 50  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-T_EIA-3528-12_Hand" H 4288 1000 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D8.0mm_P5.00mm" H 4288 1000 50  0001 C CNN
 F 3 "" H 4250 1150 50  0001 C CNN
 	1    4250 1150
 	1    0    0    -1  
@@ -1202,4 +1202,15 @@ Text Label 8100 3700 3    60   ~ 0
 grnd
 Connection ~ 8100 3600
 Connection ~ 7550 3600
+$Comp
+L R R11
+U 1 1 5B23D209
+P 8650 1650
+F 0 "R11" V 8730 1650 50  0000 C CNN
+F 1 "240ohm" V 8650 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8580 1650 50  0001 C CNN
+F 3 "" H 8650 1650 50  0001 C CNN
+	1    8650 1650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -346,12 +346,12 @@ $EndComp
 $Comp
 L Conn_01x04 J25
 U 1 1 5B21AEF7
-P 7900 3900
-F 0 "J25" H 7900 4100 50  0000 C CNN
-F 1 "power" H 7900 3600 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7900 3900 50  0001 C CNN
-F 3 "" H 7900 3900 50  0001 C CNN
-	1    7900 3900
+P 7900 4100
+F 0 "J25" H 7900 4300 50  0000 C CNN
+F 1 "power" H 7900 3800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7900 4100 50  0001 C CNN
+F 3 "" H 7900 4100 50  0001 C CNN
+	1    7900 4100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -421,23 +421,23 @@ F 3 "" H 8100 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	8100 3400 8100 3600
+	8100 3400 8100 3700
 Wire Wire Line
-	8000 3700 8000 3600
+	8000 3900 8000 3600
 Wire Wire Line
 	8000 3600 8100 3600
 Wire Wire Line
-	7900 3700 8000 3700
+	7900 3900 8000 3900
 Wire Wire Line
-	7700 3700 7700 3600
+	7700 3900 7700 3600
 Wire Wire Line
 	7700 3600 7550 3600
 Wire Wire Line
 	7700 3400 7550 3400
 Wire Wire Line
-	7550 3400 7550 3600
+	7550 3400 7550 3700
 Wire Wire Line
-	7800 3700 7700 3700
+	7800 3900 7700 3900
 Text Label 7950 1400 3    60   ~ 0
 btn_1
 Text Label 8050 1400 3    60   ~ 0
@@ -1196,4 +1196,10 @@ Wire Wire Line
 NoConn ~ 1400 4850
 Wire Wire Line
 	1100 1800 1100 1900
+Text Label 7550 3700 3    60   ~ 0
+5V
+Text Label 8100 3700 3    60   ~ 0
+grnd
+Connection ~ 8100 3600
+Connection ~ 7550 3600
 $EndSCHEMATC
