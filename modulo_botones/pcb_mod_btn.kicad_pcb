@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.254)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -66,7 +66,7 @@
     (mod_edge_width 0.15)
     (mod_text_size 1 1)
     (mod_text_width 0.15)
-    (pad_size 5.064 5.064)
+    (pad_size 5 5)
     (pad_drill 4)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
@@ -3556,11 +3556,10 @@
     )
   )
 
-  (module footprints:1pin (layer F.Cu) (tedit 5B23D65D) (tstamp 5B23D596)
+  (module footprints:1pin (layer F.Cu) (tedit 5B26AF4F) (tstamp 5B23D596)
     (at 161 34)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
-    (zone_connect 1)
     (fp_text reference REF** (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
@@ -3570,8 +3569,7 @@
     (fp_circle (center 0 0) (end 2 0.8) (layer F.Fab) (width 0.1))
     (fp_circle (center 0 0) (end 2.6 0) (layer F.CrtYd) (width 0.05))
     (fp_circle (center 0 0) (end 0 -2.286) (layer F.SilkS) (width 0.12))
-    (pad "" np_thru_hole circle (at 0 0) (size 5 5) (drill 4) (layers *.Cu *.Mask)
-      (zone_connect 1))
+    (pad "" np_thru_hole circle (at 0 0) (size 5 5) (drill 4) (layers *.Cu *.Mask))
   )
 
   (module footprints:1pin (layer F.Cu) (tedit 5B23D65D) (tstamp 5B23D8B0)
@@ -3610,7 +3608,7 @@
       (zone_connect 1))
   )
 
-  (module footprints:1pin (layer F.Cu) (tedit 5B23D65D) (tstamp 5B23D8E6)
+  (module footprints:1pin (layer F.Cu) (tedit 5B26B172) (tstamp 5B23D8E6)
     (at 161 124)
     (descr "module 1 pin (ou trou mecanique de percage)")
     (tags DEV)
