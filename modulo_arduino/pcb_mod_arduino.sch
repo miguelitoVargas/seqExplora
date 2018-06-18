@@ -32,6 +32,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:arduino
+LIBS:pcb_mod_arduino-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -187,7 +188,7 @@ U 1 1 5B26B793
 P 7650 1100
 F 0 "J7" H 7650 1300 50  0000 C CNN
 F 1 "power" H 7650 800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7650 1100 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-4_P5.08mm" H 7650 1100 50  0001 C CNN
 F 3 "" H 7650 1100 50  0001 C CNN
 	1    7650 1100
 	0    -1   -1   0   
@@ -693,7 +694,6 @@ NoConn ~ 1750 5750
 NoConn ~ 1750 5850
 NoConn ~ 1750 5950
 NoConn ~ 1750 6050
-NoConn ~ 1750 6150
 NoConn ~ 2800 1400
 NoConn ~ 2900 1400
 NoConn ~ 3000 1400
@@ -703,4 +703,13 @@ Text Label 3200 1300 1    60   ~ 0
 grnd
 Wire Wire Line
 	3200 1300 3200 1400
+Text Label 1500 6150 2    60   ~ 0
+vin
+Wire Wire Line
+	1500 6150 1750 6150
+Text Label 7950 1400 0    60   ~ 0
+vin
+Wire Wire Line
+	7950 1400 7850 1400
+Connection ~ 7850 1400
 $EndSCHEMATC

@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source /home/tc/proyectos/activos/seq_explora_repo/pcb_mod_btn.sch)
-    (date "vie 15 jun 2018 09:41:07 -05")
+    (source /home/tc/proyectos/activos/seq_explora_repo/modulo_botones/pcb_mod_btn.sch)
+    (date "lun 18 jun 2018 16:18:35 -05")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -179,7 +179,7 @@
       (tstamp 5B21AD66))
     (comp (ref J25)
       (value power)
-      (footprint Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm)
+      (footprint Connectors_Terminal_Blocks:TerminalBlock_bornier-4_P5.08mm)
       (libsource (lib conn) (part Conn_01x04))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B21AEF7))

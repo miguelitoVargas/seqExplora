@@ -349,7 +349,7 @@ U 1 1 5B21AEF7
 P 7900 4100
 F 0 "J25" H 7900 4300 50  0000 C CNN
 F 1 "power" H 7900 3800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 7900 4100 50  0001 C CNN
+F 2 "Connectors_Terminal_Blocks:TerminalBlock_bornier-4_P5.08mm" H 7900 4100 50  0001 C CNN
 F 3 "" H 7900 4100 50  0001 C CNN
 	1    7900 4100
 	0    1    1    0   
