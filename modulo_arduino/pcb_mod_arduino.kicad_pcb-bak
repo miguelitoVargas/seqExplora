@@ -3,7 +3,7 @@
   (general
     (links 69)
     (no_connects 0)
-    (area 71.924999 47.924999 188.075001 148.075001)
+    (area 46.435716 37.3 202.135715 158.700001)
     (thickness 1.6)
     (drawings 14)
     (tracks 357)
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 0.381)
+    (last_trace_width 0.25)
     (user_trace_width 0.1524)
     (user_trace_width 0.254)
     (user_trace_width 0.381)
@@ -5506,9 +5506,9 @@
     )
   )
 
-  (gr_circle (center 153.924 108.458) (end 154.559 109.474) (layer F.SilkS) (width 0.2) (tstamp 5B280717))
-  (gr_circle (center 144.907 108.458) (end 145.542 109.474) (layer F.SilkS) (width 0.2) (tstamp 5B280708))
-  (gr_circle (center 122.809 108.585) (end 123.444 109.601) (layer F.SilkS) (width 0.2) (tstamp 5B2806EE))
+  (gr_circle (center 153.162 82.804) (end 153.797 83.82) (layer F.SilkS) (width 0.2) (tstamp 5B280717))
+  (gr_circle (center 144.145 82.804) (end 144.78 83.82) (layer F.SilkS) (width 0.2) (tstamp 5B280708))
+  (gr_circle (center 122.809 82.931) (end 123.444 83.947) (layer F.SilkS) (width 0.2) (tstamp 5B2806EE))
   (gr_circle (center 112.776 108.204) (end 113.411 109.22) (layer F.SilkS) (width 0.2) (tstamp 5B2806E8))
   (gr_circle (center 101.854 108.204) (end 102.489 109.22) (layer F.SilkS) (width 0.2) (tstamp 5B2806E5))
   (gr_circle (center 89.789 108.077) (end 90.424 109.093) (layer F.SilkS) (width 0.2))
